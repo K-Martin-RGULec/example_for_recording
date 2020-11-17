@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <!-- Page Title -->
+        <title>Penguin Palace</title>
+
+        <!-- Stylesheet Import -->
+        <link rel='stylesheet' href='css/main.css'>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- Logo and Title -->
+            <img src='images/penguin.jpg' alt='penguin logo'/>
+            <p>Penguin Palace</p>
+            
+            <!-- Horizontal Menu -->
+            <nav>
+                <ul>
+                    <li><a href='home.html' class='active'>Home</a></li>
+                    <li><a href='home.html'>Gallery</a></li>
+                    <li><a href='home.html'>About</a></li>
+                    <li><a href='home.html'>Contact Us</a></li>
+                    <li style='float:right'><a href='home.html'>Adopt a Penguin</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <!-- Main Page content-->
+            <p>Watch our range of penguin videos today!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OF0w9z_JUJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Want to tell us how much you love penguins? Comment below!</p>
+            
+            <fieldset>
+                <legend>Please leave a comment...</legend>
+
+                <label for='username'>Username:</label>
+                <input type='text' name='username' value=''>
+
+                <br>
+                <br>
+
+                <label for='comment'>Comment:</label>
+                <textarea name='username' cols='45' rows='5'></textarea>
+
+                <br>
+                <br>
+
+                <input type="button" id='submit' value='Submit'>
+
+            </fieldset>
+        
+        </main>
+
+        <aside>
+            
+            <!-- Penguin Ranking -->
+            <table>
+                <tr>
+                    <th>Rank</th><th>Penguin</th>
+                </tr>
+                <tr>
+                    <td>1</td><td>King Dedede</td>
+                </tr>
+                <tr>
+                    <td>2</td><td>Pingu</td>
+                </tr>
+                <tr>
+                    <td>3</td><td>Happy Feet</td>
+                </tr>
+            </table>
+        </aside>
+
+        <aside id='social'>
+            <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/foreverapenguin?ref_src=twsrc%5Etfw">Tweets by foreverapenguin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+    </body>
+</html>
